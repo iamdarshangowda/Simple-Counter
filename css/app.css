@@ -1,0 +1,43 @@
+body {
+  font-family: "Open sans", Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-image: url("station.jpg");
+  background-size: cover;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.btn {
+  text-transform: uppercase;
+  background: white;
+  border: solid 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 15px;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+#container {
+  text-align: center;
+}
+
+#value {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1;
+}
